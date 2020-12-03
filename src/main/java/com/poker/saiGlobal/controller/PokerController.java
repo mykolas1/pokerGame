@@ -29,7 +29,7 @@ public class PokerController {
      * End point controller to test poker game.
      * @param playerSize players size which must be from 2 to 10.
      */
-    @GetMapping(value = "/play/poker/size/{playerSize}")
+    @GetMapping(value = "/poker/play/players/{playerSize}")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<String>  playPoker(@PathVariable @Max(10) @Min(2) int playerSize) {
         return new ResponseEntity<>(playPokerKernel.playPoker(playerSize), HttpStatus.OK);
