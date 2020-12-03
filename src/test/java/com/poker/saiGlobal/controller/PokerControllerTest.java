@@ -1,9 +1,6 @@
-package com.poker.saiGlobal.component.controller;
+package com.poker.saiGlobal.controller;
 
-import com.poker.saiGlobal.controller.PokerController;
 import com.poker.saiGlobal.kernel.PlayPokerKernel;
-import com.poker.saiGlobal.kernel.PlayPokerKernelImpl;
-import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
